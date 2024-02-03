@@ -1,0 +1,5 @@
+﻿  ClientT.cpp
+D:\Labs\NodeJS\Lab10\Lab10-C++\ClientT\ClientT.cpp(40,12): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  Errors.cpp
+  Создание кода...
+  ClientT.vcxproj -> D:\Labs\NodeJS\Lab10\Lab10-C++\x64\Debug\ClientT.exe

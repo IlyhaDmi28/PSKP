@@ -1,0 +1,7 @@
+﻿  Errors.cpp
+  ServerU.cpp
+D:\Labs\NodeJS\Lab10\Lab10-C++\ServerU\ServerU.cpp(54,16): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Labs\NodeJS\Lab10\Lab10-C++\ServerU\ServerU.cpp(39,24): warning C4101: end: неиспользованная локальная переменная
+D:\Labs\NodeJS\Lab10\Lab10-C++\ServerU\ServerU.cpp(39,17): warning C4101: start: неиспользованная локальная переменная
+  Создание кода...
+  ServerU.vcxproj -> D:\Labs\NodeJS\Lab10\Lab10-C++\x64\Debug\ServerU.exe

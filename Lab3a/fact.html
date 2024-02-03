@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task3</title>
+</head>
+<body>
+    <div id="result" style="white-space: pre-line;"></div>
+
+    <script>
+        let k = 20;
+        
+        const startTime = new Date();
+
+        for (let x = 0; x < k; x++) {
+            fetch(`/fact?k=${x}`).then(response => response.json()).then(data => {
+                document.getElementById('result').textContent += `${x}.Результа: ${ Date.now() - startTime}-${data.k}/${data.fact}\n`;
+            })
+            .catch(error => {
+                console.error('Ошибка: ', error);
+            });
+        }
+    </script>
+</body>
+</html>

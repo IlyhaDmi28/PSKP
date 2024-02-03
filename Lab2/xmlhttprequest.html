@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>My Info</title>
+</head>
+<body>
+    <h1>Данные:</h1>
+    <p id="data">Ожидание ответа...</p>
+
+    <script>
+        const xhr = new XMLHttpRequest();
+        xhr.open('GET', '/api/name', true);
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState === 4 && xhr.status === 200) {
+                const data = xhr.responseText;
+                document.getElementById('data').textContent = data;
+            }
+        };
+        xhr.send();
+    </script>
+</body>
+</html>

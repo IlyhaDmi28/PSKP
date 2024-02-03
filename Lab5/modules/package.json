@@ -1,0 +1,16 @@
+{
+  "name": "m05_dii2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "m05_DII.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ilyha",
+  "license": "ISC",
+
+  "dependencies": {
+    "nodemailer": "^6.9.6",
+    "nodemailer-smtp-transport": "^2.7.4"
+  }
+}
